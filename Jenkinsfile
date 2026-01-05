@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout SCM') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/admin105-sudo/CICD.git'
+                url: 'https://github.com/admin105-sudo/Repo.git'
             }
         }
 
